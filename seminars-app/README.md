@@ -1,8 +1,15 @@
-# React + Vite
+#  TestTask-ITSTART
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Запуск проекта
 
-Currently, two official plugins are available:
+### Запуск сервера
+Для запуска сервера выполните команду:
+```sh
+npx json-server --watch seminars.json --port 5000
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Запуск приложения
+Для запуска клиентской части перейдите в папку seminars-app и выполните команду:
+```sh
+npm run dev
+```
