@@ -1,0 +1,50 @@
+.seminar {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+        'image title title'
+        'image description description'
+        'image time date'
+        'image delete edit';
+    align-items: center;
+    width: 700px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 30px;
+    margin: 2rem auto;
+}
+
+.image {
+    grid-area: image;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    padding: 20px;
+}
+
+.title {
+    grid-area: title;
+    text-align: left;
+}
+
+.description {
+    grid-area: description;
+    text-align: left;
+}
+
+.time {
+    grid-area: time;
+    text-align: left;
+}
+
+.date {
+    grid-area: date;
+    text-align: left;
+}
+
+.button {
+    height: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
